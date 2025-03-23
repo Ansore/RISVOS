@@ -4,7 +4,7 @@ SRC = ${EXEC}.s
 
 GDBINIT = gdbinit
 
-CROSS_COMPILE = riscv64-linux-gnu-
+CROSS_COMPILE = riscv64-elf-
 CFLAGS = -nostdlib -fno-builtin -march=rv32g -mabi=ilp32 -g -Wall
 
 QEMU = qemu-system-riscv32
